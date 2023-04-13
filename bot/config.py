@@ -3,23 +3,23 @@ import os
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_TOKEN = os.environ.get("6234817090:AAEhtiYazr1rzBUNVu8UHQuQDesh7npJ1jw")
 
     SESSION_NAME = ":memory:"
 
-    API_ID = int(os.environ.get("API_ID"))
+    API_ID = int(os.environ.get("23862583"))
 
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = os.environ.get("cdb6288563a205ce92ec35bd2a7fd31e")
 
     CLIENT_ID = os.environ.get("CLIENT_ID")
 
     CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
 
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+    BOT_OWNER = int(os.environ.get("1994781564"))
 
     AUTH_USERS_TEXT = os.environ.get("AUTH_USERS", "")
 
-    AUTH_USERS = [BOT_OWNER, 754495556] + (
+    AUTH_USERS = [BOT_OWNER, 1994781564] + (
         [int(user.strip()) for user in AUTH_USERS_TEXT.split(",")]
         if AUTH_USERS_TEXT
         else []
